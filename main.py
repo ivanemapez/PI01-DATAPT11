@@ -4,7 +4,7 @@ from datetime import datetime
 import calendar
 
 # ruta
-df = pd.read_csv("C:\\Users\ivan\Documents\PI1\movies_completo.csv")
+df = pd.read_csv("movies_completo.csv")
 
 app = FastAPI()
 
